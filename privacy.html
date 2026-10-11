@@ -19,6 +19,7 @@
     <h2>Your documents and saved work</h2>
     <p>PDFs you add to your library, thumbnails, and recovery copies are stored in your browser profile using IndexedDB. Your color preference and signatures you choose to save for reuse are stored locally using localStorage. A saved signature is a reusable visual mark, not a signing certificate. The reader and annotation tools run inside the extension.</p>
     <p>There is no Quire account or cloud storage service, and this data does not sync to other devices through Quire.</p>
+    <p>Local processing includes the document contents you open, form entries, annotations, visual signatures, and saved reading state. This information is used to display your documents, preserve your work, and create the PDF copies you choose to save.</p>
     <h2>Network access</h2>
     <p>When you explicitly open an HTTP or HTTPS PDF link, Quire asks Chrome for optional access to that website’s origin. If you grant access, Quire retrieves the chosen PDF from that website without sending site cookies or following redirects. That request, including ordinary connection information such as your IP address, is subject to the website’s privacy practices. Chrome remembers granted site access; you can review or remove it in Chrome’s extension settings.</p>
     <p>If access is declined, or a site requires sign-in or redirects, download the PDF normally in Chrome and open the local file in Quire. Quire’s reader code, fonts, and assets are bundled with the extension; your PDF is not uploaded to a document-processing service. PDF scripts and XFA forms are disabled.</p>
@@ -26,6 +27,8 @@
     <p>Links you choose to open in a PDF or on this website take you to their respective websites. Those websites have their own privacy practices.</p>
     <h2>No analytics or advertising</h2>
     <p>Quire does not include analytics, advertising, tracking pixels, or usage telemetry. We do not collect, sell, or share your document content or activity through the extension.</p>
+    <h2>Chrome Web Store Limited Use</h2>
+    <p>Quire PDF uses information obtained through Chrome permissions only to provide its PDF reading and editing features. This use complies with the <a href="https://developer.chrome.com/docs/webstore/program-policies/user-data">Chrome Web Store User Data Policy</a>, including the Limited Use requirements. We do not sell this information, use it for advertising, or send document content to us.</p>
     <h2>Keeping and removing files</h2>
     <p>Local library and recovery data stay in your browser profile until you remove them or uninstall the extension. Copies you download are separate files on your computer; removing a library entry or uninstalling Quire does not delete those downloaded copies.</p>
     <p>Reusable signatures are stored separately from library documents. Removing a document does not remove a signature saved for reuse. Remove saved signatures using the signature tool’s controls, or remove all extension data by uninstalling Quire. Removing a saved signature does not erase signature marks already placed in a document or downloaded copy.</p>
