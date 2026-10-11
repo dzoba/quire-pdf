@@ -1,0 +1,41 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="680" height="660" viewBox="0 0 680 660" role="img" aria-labelledby="title desc">
+  <title id="title">A document with room for your ideas</title>
+  <desc id="desc">An illustration of a paper page with a blue highlight, a margin note and a drawn signature. This is an illustration, not an app screenshot.</desc>
+  <rect x="31" y="30" width="610" height="596" rx="18" fill="#e1eaf2"/>
+  <path d="M83 531h524" stroke="#c8d6e2"/>
+  <g transform="rotate(-4 344 319)">
+    <rect x="121" y="56" width="449" height="560" rx="3" fill="#c6d4e0"/>
+    <rect x="110" y="45" width="449" height="560" rx="3" fill="#fff"/>
+    <path d="M153 98h37" stroke="#076ac8" stroke-width="4"/>
+    <text x="153" y="136" font-family="Georgia, serif" font-size="13" fill="#526579">Notes on making things</text>
+    <text x="153" y="191" font-family="Georgia, serif" font-size="35" fill="#172b40">A good idea</text>
+    <text x="153" y="232" font-family="Georgia, serif" font-size="35" fill="#172b40">needs a margin.</text>
+    <path d="M153 272h249m-249 15h278m-278 15h253m-253 15h217" stroke="#aab9c6" stroke-width="3"/>
+    <path d="M148 346h288" stroke="#b4dcff" stroke-width="19"/>
+    <text x="153" y="351" font-family="Georgia, serif" font-size="15" fill="#172b40">Make space for the part that matters.</text>
+    <path d="M153 380h244m-244 15h278m-278 15h267m-267 15h187" stroke="#aab9c6" stroke-width="3"/>
+    <path d="M153 475h276" stroke="#d4dee7"/>
+    <text x="153" y="495" font-family="Arial, sans-serif" font-size="10" fill="#526579">Your signature</text>
+    <path d="M165 552c15-43 19-54 18-35s-8 33-4 29 29-28 17-16-9 18-2 16 23-22 15-12 3 8 10 1 9-5 5 1 8 5 15-1 9-2 15-8m-93 29c36-6 73-8 100-4" fill="none" stroke="#076ac8" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+    <text x="499" y="574" font-family="Arial, sans-serif" font-size="10" fill="#526579">1</text>
+  </g>
+  <g>
+    <rect x="443" y="323" width="186" height="104" rx="8" fill="#cbd9e5"/>
+    <rect x="437" y="317" width="186" height="104" rx="8" fill="#fff"/>
+    <rect x="437" y="329" width="3" height="28" fill="#076ac8"/>
+    <text x="456" y="344" font-family="Arial, sans-serif" font-size="11" fill="#526579">Margin note</text>
+    <text x="456" y="372" font-family="Georgia, serif" font-size="19" fill="#172b40">Keep this thought.</text>
+    <text x="456" y="396" font-family="Arial, sans-serif" font-size="11" fill="#526579">Come back with a fresh eye.</text>
+  </g>
+  <g>
+    <rect x="39" y="245" width="56" height="205" rx="14" fill="#c9d7e3"/>
+    <rect x="34" y="240" width="56" height="205" rx="14" fill="#fff"/>
+    <rect x="41" y="247" width="42" height="42" rx="9" fill="#076ac8"/>
+    <path d="m52 273 12-12 6 6-12 12h-8Zm11-11 6 6m-16 17h20" fill="none" stroke="#fff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+    <path d="M53 307h19m-10 0v21m-6 0h12M52 359c7-20 18-24 12-12s-1 11 8 1M52 394h20v16H52z" fill="none" stroke="#526579" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+    <path d="m54 407 6-7 5 5 4-3" fill="none" stroke="#526579" stroke-width="2"/>
+  </g>
+  <rect x="330" y="573" width="256" height="44" rx="22" fill="#172b40"/>
+  <path d="m350 595 5 5 10-11" fill="none" stroke="#a9d6ff" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+  <text x="378" y="600" font-family="Arial, sans-serif" font-size="13" fill="#fff">Your words. Your edited copy.</text>
+</svg>

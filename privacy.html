@@ -1,0 +1,41 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="theme-color" content="#076ac8">
+  <title>Privacy policy — Quire PDF</title>
+  <meta name="description" content="How Quire PDF handles documents, local storage and network access.">
+  <link rel="icon" href="img/icon32.png" type="image/png">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <a class="skip" href="#main">Skip to content</a>
+  <header class="header"><div class="wrap header-inner"><a class="brand" href="index.html" aria-label="Quire PDF home"><img src="img/icon128.png" alt="" width="36" height="36"><span>Quire <span>PDF</span></span></a><nav class="nav" aria-label="Main navigation"><a href="index.html#features">How it works</a><a href="index.html">Home</a></nav></div></header>
+  <main id="main" class="wrap legal">
+    <h1>Privacy, in plain words.</h1>
+    <p class="updated">Quire PDF privacy policy · Last updated 11 October 2026</p>
+    <p class="summary">Quire PDF processes your documents on your computer. It does not send your PDFs or annotations to us.</p>
+    <h2>Your documents and saved work</h2>
+    <p>PDFs you add to your library, thumbnails, and recovery copies are stored in your browser profile using IndexedDB. Your color preference and signatures you choose to save for reuse are stored locally using localStorage. A saved signature is a reusable visual mark, not a signing certificate. The reader and annotation tools run inside the extension.</p>
+    <p>There is no Quire account or cloud storage service, and this data does not sync to other devices through Quire.</p>
+    <h2>Network access</h2>
+    <p>When you explicitly open an HTTP or HTTPS PDF link, Quire asks Chrome for optional access to that website’s origin. If you grant access, Quire retrieves the chosen PDF from that website without sending site cookies or following redirects. That request, including ordinary connection information such as your IP address, is subject to the website’s privacy practices. Chrome remembers granted site access; you can review or remove it in Chrome’s extension settings.</p>
+    <p>If access is declined, or a site requires sign-in or redirects, download the PDF normally in Chrome and open the local file in Quire. Quire’s reader code, fonts, and assets are bundled with the extension; your PDF is not uploaded to a document-processing service. PDF scripts and XFA forms are disabled.</p>
+    <p>The toolbar action uses temporary access to the active tab to identify a PDF URL when you invoke it. The context-menu permission adds an “Open PDF in Quire” action to PDF links. Quire does not continuously monitor your browsing.</p>
+    <p>Links you choose to open in a PDF or on this website take you to their respective websites. Those websites have their own privacy practices.</p>
+    <h2>No analytics or advertising</h2>
+    <p>Quire does not include analytics, advertising, tracking pixels, or usage telemetry. We do not collect, sell, or share your document content or activity through the extension.</p>
+    <h2>Keeping and removing files</h2>
+    <p>Local library and recovery data stay in your browser profile until you remove them or uninstall the extension. Copies you download are separate files on your computer; removing a library entry or uninstalling Quire does not delete those downloaded copies.</p>
+    <p>Reusable signatures are stored separately from library documents. Removing a document does not remove a signature saved for reuse. Remove saved signatures using the signature tool’s controls, or remove all extension data by uninstalling Quire. Removing a saved signature does not erase signature marks already placed in a document or downloaded copy.</p>
+    <p>Browser data can be cleared or lost. Keep a downloaded copy of documents and edits that matter to you.</p>
+    <h2>This website</h2>
+    <p>This website uses no analytics, tracking cookies, remote scripts, or third-party fonts. Its hosting provider may process ordinary request information to deliver the pages.</p>
+    <h2>Support</h2>
+    <p>If you open a public support issue, the information you include is visible on GitHub and governed by GitHub’s policies. Describe the problem without including private documents or personal information.</p>
+    <p class="policy-link"><a href="https://github.com/dzoba/quire-pdf/issues">Open a support issue</a></p>
+  </main>
+  <footer class="footer"><div class="wrap footer-inner"><p>Quire PDF</p><nav aria-label="Footer"><a href="index.html">Back to Quire PDF</a></nav></div></footer>
+</body>
+</html>
